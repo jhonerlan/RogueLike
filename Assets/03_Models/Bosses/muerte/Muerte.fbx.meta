@@ -8,7 +8,7 @@ ModelImporter:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -73,7 +73,11 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips:
+  - d602dce9cbc2692409a81a4da154ce66
   - 60648b1d37c805c43ab8dea0981b9d9e
+  - a493ab8b642f5a4439640a5a26ca097e
+  - 9d1a3195b5a8fa142851c53482cd99fb
+  - bd83cde6b936333428cd9d1b00a21814
   - fce333cf45161234b8f2908805612518
   importAnimation: 1
   humanDescription:
@@ -96,7 +100,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
