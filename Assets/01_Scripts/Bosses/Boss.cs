@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Goblin : MonoBehaviour
+public class Boss : MonoBehaviour
 {
-    [Header("Goblin Stats")]
+    [Header("Trol Stats")]
     public float health = 100f;
     public float damage = 10f;
     public float detectionRange = 10f;
@@ -15,19 +15,22 @@ public class Goblin : MonoBehaviour
     public float runSpeed = 3f;
     private float stateTimer;
     private Vector3 randomDirection;
-    public float attackCooldown = 1f; // Tiempo entre ataques
+    public float attackCooldown = 2f; // Tiempo entre ataques
     private float attackTimer;
+    private bool active;
 
-    [Header("Goblin References")]
+    [Header("Trol References")]
     public Animator animator;
-    public Transform player;
+    private Transform player;
     public LayerMask obstacleLayer;
 
-    private enum State { Idle, Walking, Run, Attack1, Attack2, Death }
+    private enum State { Idle, Walking, Run, Attack, Death }
     private State currentState;
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         currentState = State.Idle;
+        active = false;
         stateTimer = idleTime;
     }
 
@@ -45,11 +48,17 @@ public class Goblin : MonoBehaviour
             case State.Run:
                 RunState();
                 break;
-            case State.Attack1:
-                Attack1State();
-                break;
-            case State.Attack2:
-                Attack2State();
+            case State.Attack:
+                int attackType = Random.Range(1, 3);
+                if (attackType == 1)
+                {
+                    Attack1State();
+                }
+                else
+                {
+                    Attack2State();
+                }
+                
                 break;
             case State.Death:
                 DeathState();
@@ -65,19 +74,23 @@ public class Goblin : MonoBehaviour
 
     void IdleState()
     {
-        stateTimer -= Time.deltaTime;
-
-        if (stateTimer <= 0)
+        if (active)
         {
-            currentState = State.Walking;
-            stateTimer = walkTime;
-            randomDirection = GetRandomDirection();
-            animator.SetTrigger("Walk");
+            stateTimer -= Time.deltaTime;
+
+            if (stateTimer <= 0)
+            {
+                currentState = State.Walking;
+                stateTimer = walkTime;
+                randomDirection = GetRandomDirection();
+                animator.SetTrigger("Walk");
+            }
         }
-        if (Vector3.Distance(transform.position, player.position) <= detectionRange)
+        else if (Vector3.Distance(transform.position, player.position) <= detectionRange)
         {
             currentState = State.Run;
             animator.SetTrigger("Run");
+            active = true;
             return;
         }
     }
@@ -134,7 +147,7 @@ public class Goblin : MonoBehaviour
 
         if (Vector3.Distance(transform.position, player.position) <= attackRange)
         {
-            currentState = State.Attack1;
+            currentState = State.Attack;
             animator.SetInteger("AttackType", 1);
             return;
         }
@@ -217,5 +230,27 @@ public class Goblin : MonoBehaviour
         // Muerte del jefe, podría añadir destrucción del objeto
         // o cualquier otra lógica que desees en este estado.
         animator.SetTrigger("Death");
+        //Espera un tiempo para destruir el objeto
+        Destroy(gameObject);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        if (health <= 0f)
+        {
+            currentState = State.Death;
+        }
+        else
+        {
+            health -= damage;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        //if (collision.gameObject.CompareTag("HarmaPlayer"))
+        //{
+        //    //collision.gameObject.GetComponent<Player>().TakeDamage(damage);
+        //}
     }
 }

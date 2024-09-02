@@ -58,13 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\01_Scripts\Destruction.cs" />
     <Compile Include="Assets\01_Scripts\Room_Spawner.cs" />
-    <Compile Include="Assets\01_Scripts\Bosses\Goblin.cs" />
     <Compile Include="Assets\01_Scripts\Generador_Mapa.cs" />
     <Compile Include="Assets\01_Scripts\Room_Template.cs" />
-    <Compile Include="Assets\01_Scripts\Bosses\Minotauro.cs" />
     <Compile Include="Assets\01_Scripts\AddRoomToList.cs" />
-    <Compile Include="Assets\01_Scripts\Bosses\Trol.cs" />
-    <Compile Include="Assets\01_Scripts\Bosses\Muerte.cs" />
+    <Compile Include="Assets\01_Scripts\Bosses\BosArm.cs" />
+    <Compile Include="Assets\01_Scripts\Bosses\Arm.cs" />
+    <Compile Include="Assets\01_Scripts\Bosses\Boss.cs" />
+    <Compile Include="Assets\01_Scripts\Bosses\Patada.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
