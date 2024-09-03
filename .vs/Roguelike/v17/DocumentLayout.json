@@ -1,42 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\",
+  "WorkspaceRootPath": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|c:\\users\\yerli\\onedrive\\documentos\\github\\roguelike\\assets\\scripts\\cofre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cofre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|c:\\users\\yerli\\onedrive\\documentos\\github\\roguelike\\assets\\scripts\\chestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|c:\\users\\yerli\\onedrive\\documentos\\github\\roguelike\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scenes\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\assets\\scripts\\room_spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\room_spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\assets\\scripts\\addroomtolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\addroomtolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\assets\\scripts\\room_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\room_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\assets\\scripts\\destruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\assets\\scripts\\destruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destruction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\assets\\scripts\\generador_mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Cofre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scenes\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\assets\\scripts\\room_spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\room_spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\assets\\scripts\\addroomtolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\addroomtolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\assets\\scripts\\room_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\room_template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\assets\\scripts\\generador_mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FB85AE3-D086-CBEB-FEEA-B363B0289BC7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generador_mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\ChestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,65 +42,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T23:14:32.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cofre.cs",
-              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Cofre.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Cofre.cs",
-              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Cofre.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Cofre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T23:14:30.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T23:14:32.876Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ChestController.cs",
-              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\ChestController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChestController.cs",
-              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\ChestController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Title": "Cofre.cs",
+              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Cofre.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Cofre.cs",
+              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Cofre.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Cofre.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T23:14:13.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T23:14:30.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "ChestController.cs",
+              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\ChestController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\ChestController.cs",
+              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\ChestController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\ChestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T23:14:13.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scenes\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\Player.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scenes\\Player.cs",
               "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scenes\\Player.cs",
-              "RelativeToolTip": "Assets\\Scenes\\Player.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scenes\\Player.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T23:09:38.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AddRoomToList.cs",
-              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\AddRoomToList.cs",
+              "DocumentMoniker": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\AddRoomToList.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AddRoomToList.cs",
-              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\AddRoomToList.cs",
+              "ToolTip": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\AddRoomToList.cs",
               "RelativeToolTip": "Assets\\Scripts\\AddRoomToList.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
@@ -112,11 +104,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Room_Spawner.cs",
-              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Room_Spawner.cs",
+              "DocumentMoniker": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\Room_Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Room_Spawner.cs",
-              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Room_Spawner.cs",
+              "ToolTip": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\Room_Spawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Room_Spawner.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwDgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,11 +116,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Room_Template.cs",
-              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Room_Template.cs",
+              "DocumentMoniker": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\Room_Template.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Room_Template.cs",
-              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Room_Template.cs",
+              "ToolTip": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\Room_Template.cs",
               "RelativeToolTip": "Assets\\Scripts\\Room_Template.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
@@ -136,27 +128,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Destruction.cs",
-              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Destruction.cs",
+              "DocumentMoniker": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\Destruction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Destruction.cs",
-              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Destruction.cs",
+              "ToolTip": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\Destruction.cs",
               "RelativeToolTip": "Assets\\Scripts\\Destruction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-09-02T23:09:37.086Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T23:09:37.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Generador_Mapa.cs",
-              "DocumentMoniker": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Generador_Mapa.cs",
+              "DocumentMoniker": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\Generador_Mapa.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Generador_Mapa.cs",
-              "ToolTip": "C:\\Users\\yerli\\OneDrive\\Documentos\\GitHub\\RogueLike\\Assets\\Scripts\\Generador_Mapa.cs",
+              "ToolTip": "C:\\Users\\yerlin\\Desktop\\rv\\RogueLike\\Assets\\Scripts\\Generador_Mapa.cs",
               "RelativeToolTip": "Assets\\Scripts\\Generador_Mapa.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAcwBwAAAAZAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJUSURBVDhP3ZC/TxpxGMbf73GAeIhXKz9SbWMQ\u002B8NcMMWgQtpGBwZjhybWGhs2p66t1SYdutXO7aTtaOLQgYmBkgh0aqjBhGgjlCiHSOU8hEPkDg7uete0Y/\u002BA9jO8eYfnGT4P/Pto1BORI/jC3AJpnDB2NZ1NwnrfSow8GtH7Xf5GNBpFnjnPJeY2Y/A/9Ytrr9d6Tm6ddJhdZpGO0RImyzKG7WNjHM8FGlgjSXQRSRNuSpKI/Fh0FnsP2cMhXuQDOkkXoI/osVK99FloCYE8nh\u002BDV4Dhob0QeVQ\u002BWtnOb7ttRpvWO\u002B7d1\u002BP6Vl2ss0OXhwxNsflsK7NFKRnIsJllwGAgX81bZUl\u002B7ADHLh5OhfFas3YNRzhM35z\u002BqkGaFzLIVVZgeXunvaj8G\u002B6r7nspJgVaTLsxS83eLXCF0/PG\u002Bac\u002B6Kvj4YMw2DptMHpl9EAQhUUf5UshhCR1G1WvwBaYbkO3qNPokMVoYXqJXkmv1YsYwioxiEmYGmxLbQAErUw1U/pTVuE4jqy1au83E5uDaTZtj2QiH5aCS2SaSTva0H4\u002BbBomca/VCwISIFvJdpTrZSq0GzpTy0yF4XfKO3S/tn/Fd923wl6wSNFbWxxfXF7/ss5luew7c9VcxadcU63iaTEXz8XvtOX22\u002BxZVlRGhAvxIp34kXgy6ZmM585zy2QHCTODMzRloWjlF4WGkIu9jLWQ6hncDU4cl4/fRL5HbigLg\u002BIMAz0DeybZNL86v3r6y\u002BcvYKozQRFxsod8ABI4K/WKkxd4pyALD3XfdKXfuf8XgJ/U5B69phRCXgAAAABJRU5ErkJggg==",
               "WhenOpened": "2024-09-02T23:09:37.087Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 320,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 492,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

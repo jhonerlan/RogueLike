@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ScenaCofre.unity
+- path: Assets/CofresTrampa/Scena/ScenaCofre.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
