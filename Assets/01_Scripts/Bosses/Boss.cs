@@ -20,7 +20,8 @@ public class Boss : MonoBehaviour
     private bool active;
 
     [Header("Trol References")]
-    public Animator animator;
+    private Rigidbody rb;
+    private Animator animator;
     private Transform player;
     public LayerMask obstacleLayer;
 
@@ -29,6 +30,9 @@ public class Boss : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
+        rb.freezeRotation = true;
         currentState = State.Idle;
         active = false;
         stateTimer = idleTime;
@@ -49,16 +53,29 @@ public class Boss : MonoBehaviour
                 RunState();
                 break;
             case State.Attack:
-                int attackType = Random.Range(1, 3);
-                if (attackType == 1)
+                AttackState();
+                attackTimer -= Time.deltaTime;
+                if (attackTimer <= 0)
                 {
-                    Attack1State();
+                    if (Vector3.Distance(transform.position, player.position) > attackRange)
+                    {
+                        currentState = State.Run;
+                        animator.SetTrigger("Run");
+                        animator.SetInteger("AttackType", 0);
+                        return;
+                    }
+                    else if (Random.Range(1, 3) == 1)
+                    {
+                        AttackState();
+                        animator.SetInteger("AttackType", 1); // Ejecuta el ataque 1
+                    }
+                    else
+                    {
+                        AttackState();
+                        animator.SetInteger("AttackType", 2); // Ejecuta el ataque 2
+                    }
+                    attackTimer = attackCooldown;  // Resetea el temporizador de ataque
                 }
-                else
-                {
-                    Attack2State();
-                }
-                
                 break;
             case State.Death:
                 DeathState();
@@ -116,13 +133,13 @@ public class Boss : MonoBehaviour
         if (randomDirection != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(randomDirection);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * speed);
+            rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, Time.deltaTime * speed);
         }
 
-        transform.Translate(randomDirection * speed * Time.deltaTime, Space.World);
+        rb.MovePosition(rb.position + randomDirection * speed * Time.deltaTime);
 
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 1f, obstacleLayer))
+        if (Physics.Raycast(rb.position, rb.transform.forward, out hit, 1f, obstacleLayer))
         {
             randomDirection = GetRandomDirection();
         }
@@ -138,99 +155,59 @@ public class Boss : MonoBehaviour
 
     void RunState()
     {
-        if (Vector3.Distance(transform.position, player.position) > detectionRange)
+        if (Vector3.Distance(rb.position, player.position) > detectionRange)
         {
             currentState = State.Walking;
             animator.SetTrigger("Walk");
             return;
         }
 
-        if (Vector3.Distance(transform.position, player.position) <= attackRange)
+        if (Vector3.Distance(rb.position, player.position) <= attackRange)
         {
             currentState = State.Attack;
             animator.SetInteger("AttackType", 1);
             return;
         }
 
-        Vector3 direction = (player.position - transform.position).normalized;
+        Vector3 direction = (player.position - rb.position).normalized;
 
         // Rota hacia la dirección del jugador
         if (direction != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * runSpeed);
+            rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, Time.deltaTime * runSpeed);
         }
 
-        transform.Translate(direction * runSpeed * Time.deltaTime, Space.World);
+        rb.MovePosition(rb.position + direction * runSpeed * Time.deltaTime);
 
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 1f, obstacleLayer))
+        if (Physics.Raycast(rb.position, rb.transform.forward, out hit, 1f, obstacleLayer))
         {
             direction = GetRandomDirection();
-            transform.Translate(direction * runSpeed * Time.deltaTime, Space.World);
+            rb.MovePosition(rb.position + direction * runSpeed * Time.deltaTime);
         }
     }
 
-    void Attack1State()
+    void AttackState()
     {
-        attackTimer -= Time.deltaTime;
-
-        if (Vector3.Distance(transform.position, player.position) > attackRange)
-        {
-            currentState = State.Run;
-            animator.SetTrigger("Run");
-            animator.SetInteger("AttackType", 0);
-            return;
-        }
-
         // Rota hacia el jugador durante el ataque
         Vector3 direction = (player.position - transform.position).normalized;
         if (direction != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * speed);
-        }
-
-        if (attackTimer <= 0f)
-        {
-            animator.SetInteger("AttackType", 1); // Ejecuta el ataque 1
-            attackTimer = attackCooldown;  // Resetea el temporizador de ataque
-        }
-    }
-
-    void Attack2State()
-    {
-        attackTimer -= Time.deltaTime;
-
-        if (Vector3.Distance(transform.position, player.position) > attackRange)
-        {
-            currentState = State.Run;
-            animator.SetTrigger("Run");
-            animator.SetInteger("AttackType", 0);
-            return;
-        }
-
-        // Rota hacia el jugador durante el ataque
-        Vector3 direction = (player.position - transform.position).normalized;
-        if (direction != Vector3.zero)
-        {
-            Quaternion targetRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * speed);
-        }
-
-        if (attackTimer <= 0f)
-        {
-            animator.SetInteger("AttackType", 2); // Ejecuta el ataque 2
-            attackTimer = attackCooldown;  // Resetea el temporizador de ataque
         }
     }
 
     void DeathState()
     {
-        // Muerte del jefe, podría añadir destrucción del objeto
-        // o cualquier otra lógica que desees en este estado.
         animator.SetTrigger("Death");
-        //Espera un tiempo para destruir el objeto
+        StartCoroutine(WaitAndDestroy(5f));
+    }
+
+    private IEnumerator WaitAndDestroy(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         Destroy(gameObject);
     }
 

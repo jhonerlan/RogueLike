@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 92d7ae7992cb8944691ed0873b961fd0
+  productGUID: cb4de1fa5aa4dc243bb81b3b1f0d0975
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Roguelike
+  productName: RogueLike
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -684,11 +684,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 582a3c41-6646-4fb9-8168-bad59c49739e
+  cloudProjectId: 890d86b4-92ae-4b77-87e2-a3d0fc04088c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Roguelike
-  organizationId: daril11
+  projectName: RogueLike
+  organizationId: jhon3433
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   virtualTexturingSupportEnabled: 0
