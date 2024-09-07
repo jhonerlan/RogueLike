@@ -1,0 +1,213 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.48f1 (b805b124c6b7) revision 12060081'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 8013 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/M.S.I/Desktop/RogueLike/RogueLike
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49981
+Successfully changed project path to: C:/Users/M.S.I/Desktop/RogueLike/RogueLike
+C:/Users/M.S.I/Desktop/RogueLike/RogueLike
+Using Asset Import Pipeline V2.
+Player connection [3016] Host "[IP] 192.168.100.114 [Port] 3221442592 [Flags] 2 [Guid] 2467939356 [EditorId] 2467939356 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3016] Host "[IP] 192.168.100.114 [Port] 3221442592 [Flags] 2 [Guid] 2467939356 [EditorId] 2467939356 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 85.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.48f1 (b805b124c6b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/M.S.I/Desktop/RogueLike/RogueLike/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
+    Vendor:   
+    VRAM:     4006 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.208252 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8832ms)
+		BeginReloadAssembly (7379ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1115ms)
+			LoadAssemblies (7370ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (586ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5846ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (5457ms)
+			LoadAssemblies (3930ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (507ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (801ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (622ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1324 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.8 MB.
+System memory in use after: 63.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1761.
+Total: 4.240600 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.082500 ms MarkObjects: 3.865600 ms  DeleteObjects: 0.098500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Central_Room.prefab
+  artifactKey: Guid(48f1172f731b00e49834aae05be74761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Central_Room.prefab using Guid(48f1172f731b00e49834aae05be74761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a79450e2881bd1650a674fb5c538cf') in 0.291713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Right.prefab
+  artifactKey: Guid(857da7035de150641ac1c462f4d7b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Right.prefab using Guid(857da7035de150641ac1c462f4d7b9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62621c483058a99d8efa321a112beca') in 0.037086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Left_Down.prefab
+  artifactKey: Guid(4187de69d456a564abb4833e30e1c63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Left_Down.prefab using Guid(4187de69d456a564abb4833e30e1c63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc5b56d32ccb344cd17f83dc9170e8d') in 0.040842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Left.prefab
+  artifactKey: Guid(40bb6a97bdff35b44b2375ed56762091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Left.prefab using Guid(40bb6a97bdff35b44b2375ed56762091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb4971e96cb7035514a5475eba4da08') in 0.045339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Down.prefab
+  artifactKey: Guid(480a05bbec177c1498f0adb45369ecc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Down.prefab using Guid(480a05bbec177c1498f0adb45369ecc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d34518aaafa7bebf76cd8a2570c2773') in 0.043832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Left_Right.prefab
+  artifactKey: Guid(0acaf69906c6b414bbd605efe88c16a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Left_Right.prefab using Guid(0acaf69906c6b414bbd605efe88c16a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b425d0f9cff426a4839cab5e0d2235a') in 0.045216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Top_Right.prefab
+  artifactKey: Guid(d79a1aca0d294184f8fc38fc1d495424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Top_Right.prefab using Guid(d79a1aca0d294184f8fc38fc1d495424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbc3148d823d904a09dd5bb67ce8919') in 0.042357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room Top_Left.prefab
+  artifactKey: Guid(427d5614dce3efa48a596b7f1dd5db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room Top_Left.prefab using Guid(427d5614dce3efa48a596b7f1dd5db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342b45889ee2cf344e58314019523296') in 0.054971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000997 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Right_Down.prefab
+  artifactKey: Guid(52d59c700d114594095c195b344a3634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Right_Down.prefab using Guid(52d59c700d114594095c195b344a3634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696ae3303ad49072fe1f9cc8e39c0c73') in 0.050251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Top_Down.prefab
+  artifactKey: Guid(5082c3cc4b50a394ea9914a9ea50e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Top_Down.prefab using Guid(5082c3cc4b50a394ea9914a9ea50e941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e90bac9a9fabaf2547db2a9a40103fc') in 0.053494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000722 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 3/Room_Top.prefab
+  artifactKey: Guid(dab49b224f921bd499f4dfb56564546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 3/Room_Top.prefab using Guid(dab49b224f921bd499f4dfb56564546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb98ebc967e47b8b9b416bfc86d28e4f') in 0.088994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 492.353991 seconds.
+  path: Assets/01_Scripts/Room_Spawner.cs
+  artifactKey: Guid(c385b845cb499ee4aaf81fd08892a7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Scripts/Room_Spawner.cs using Guid(c385b845cb499ee4aaf81fd08892a7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6172dcfaff9a039be7ebd04b7ca0859') in 0.075055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.510182 seconds.
+  path: Assets/02_Prefabs/Rooms/Nivel 2/Central_Room.prefab
+  artifactKey: Guid(09ab768fe5a1a564180d30c9a210e911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02_Prefabs/Rooms/Nivel 2/Central_Room.prefab using Guid(09ab768fe5a1a564180d30c9a210e911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7f78aa44442d9dd70ef8b3544678be') in 0.092869 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
