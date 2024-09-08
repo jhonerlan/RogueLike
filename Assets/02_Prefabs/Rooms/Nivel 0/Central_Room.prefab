@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &433071410980167481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6024638938755032393}
+  - component: {fileID: 393521744246830911}
+  - component: {fileID: 2116846572706793460}
+  m_Layer: 0
+  m_Name: RoomTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6024638938755032393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433071410980167481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8619684787246033463}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &393521744246830911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433071410980167481}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2116846572706793460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433071410980167481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc32d470ac2483429e6e872eb03baf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puertas:
+  - {fileID: 4343159232826775902}
+  - {fileID: 6430108060319804252}
+  - {fileID: 7827853019238248779}
+  - {fileID: 4684620737021348906}
 --- !u!1 &4343159232826775902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3571,6 +3633,10 @@ PrefabInstance:
     - target: {fileID: 5114614741727166221, guid: 9f5cc235317aad646a2dfda9b04a3bc2, type: 3}
       propertyPath: m_Name
       value: Piso
+      objectReference: {fileID: 0}
+    - target: {fileID: 7954215565615749913, guid: 9f5cc235317aad646a2dfda9b04a3bc2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8037442764960496879, guid: 9f5cc235317aad646a2dfda9b04a3bc2, type: 3}
       propertyPath: m_Materials.Array.data[0]

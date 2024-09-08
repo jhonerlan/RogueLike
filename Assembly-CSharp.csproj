@@ -62,6 +62,7 @@
     <Compile Include="Assets\01_Scripts\Room_Template.cs" />
     <Compile Include="Assets\01_Scripts\AddRoomToList.cs" />
     <Compile Include="Assets\01_Scripts\Day_Night_Cycle.cs" />
+    <Compile Include="Assets\01_Scripts\RoomTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
