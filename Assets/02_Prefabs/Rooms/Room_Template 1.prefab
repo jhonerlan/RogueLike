@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6175353382014276437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6175353382014276436}
+  - component: {fileID: 6175353382014276427}
+  m_Layer: 6
+  m_Name: Room_Template 1
+  m_TagString: Rooms
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6175353382014276436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6175353382014276437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6175353382014276427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6175353382014276437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e1ee55a9ed3a5478b6ad9a4f51198e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Room_Down:
+  - {fileID: 8019643739789346096, guid: f6e116ea275c9d943883580ad690560f, type: 3}
+  - {fileID: 3838609956947898260, guid: f7759b7baf606f84d879a1aa2d3c4806, type: 3}
+  - {fileID: 5352434824915460966, guid: 390cf6279cd216b49ad6f472f1c89362, type: 3}
+  - {fileID: 7119547410987776947, guid: 602a1812a7ae9544297a0cac285a569b, type: 3}
+  Room_Up:
+  - {fileID: 8560992549109296088, guid: f50acca8568f2ed40be233066a81efc0, type: 3}
+  - {fileID: 7119547410987776947, guid: 602a1812a7ae9544297a0cac285a569b, type: 3}
+  - {fileID: 1491054746973695414, guid: c1caa554b425309419cf2882cfb4cad3, type: 3}
+  - {fileID: 6400661555215821565, guid: f27092092fee6b249b85d0fcf369b833, type: 3}
+  Room_Left:
+  - {fileID: 6400661555215821565, guid: f27092092fee6b249b85d0fcf369b833, type: 3}
+  - {fileID: 6079987458517427437, guid: 112c4e0a1b98c2d4296a33adfec24dea, type: 3}
+  - {fileID: 3838609956947898260, guid: f7759b7baf606f84d879a1aa2d3c4806, type: 3}
+  - {fileID: 470969596456539046, guid: 86799b615f496e64b8962e0a1ad03bca, type: 3}
+  Room_Right:
+  - {fileID: 470969596456539046, guid: 86799b615f496e64b8962e0a1ad03bca, type: 3}
+  - {fileID: 6534708626887622085, guid: 14de27a58814e28468737fadddaadf9d, type: 3}
+  - {fileID: 5352434824915460966, guid: 390cf6279cd216b49ad6f472f1c89362, type: 3}
+  - {fileID: 1491054746973695414, guid: c1caa554b425309419cf2882cfb4cad3, type: 3}
+  Room_Down_arena: []
+  Room_Up_arena: []
+  Room_Left_arena: []
+  Room_Right_arena: []
+  Room_Down_cuadro: []
+  Room_Up_cuadro: []
+  Room_Left_cuadro: []
+  Room_Right_cuadro: []
+  Room_Down_pasto: []
+  Room_Up_pasto: []
+  Room_Left_pasto: []
+  Room_Right_pasto: []
+  Room_Down_tierra: []
+  Room_Up_tierra: []
+  Room_Left_tierra: []
+  Room_Right_tierra: []
+  Pisos: []
+  Room_central: []
+  nivel: 0
+  materials_piso:
+  - {fileID: 2100000, guid: e3c925f6699566a4dbfabae27161e159, type: 2}
+  - {fileID: 2100000, guid: 47fbe4340367a9c44bf7363484b3759f, type: 2}
+  - {fileID: 2100000, guid: 6d022c28b2aeafa42a88c40a88b8d637, type: 2}
+  - {fileID: 2100000, guid: 81567644320e7fd438ca9247d4939bd0, type: 2}
+  - {fileID: 2100000, guid: b94a1663ca21ff64b9f1ff55f5701ce9, type: 2}
+  materials_pared:
+  - {fileID: 2100000, guid: e8996563204b1624e82b220cb3d89fb2, type: 2}
+  - {fileID: 2100000, guid: 1799d0ab0355b044f86a24a340bd0be2, type: 2}
+  - {fileID: 2100000, guid: 69d4d95c2422a564b8b42ec1421a425b, type: 2}
+  - {fileID: 2100000, guid: 8f11e21a7812f5842be50b7eaee30f06, type: 2}
+  - {fileID: 2100000, guid: 81697ae77603c294d86fd8c1af9f29bc, type: 2}
+  closedRoom: {fileID: 5275783887449336696, guid: 1caae60fb4b129b45867449282c5aaf2, type: 3}
+  piso: {fileID: 5275783887449336696, guid: df0b94ebcefb04843bbd1859f87bfe51, type: 3}
+  roomList:
+  - {fileID: 0}
+  bossSpawnPoints: []
+  bossPrefab: {fileID: 0}
